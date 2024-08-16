@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(251, 248, 248);
+  /* width: 80%;   */
+}
+
+#Header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#Header-logo img {
+  width: 350px;
+  margin-top: 30px;
+}
+
+#Main-Box {
+  width: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  height: 750px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.tittle,
+h2,
+h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form input {
+  padding: 10px;
+
+  margin-bottom: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+  border: 1px solid rgba(148, 143, 143, 0.447);
+}
+
+.gender {
+  display: flex;
+}
+
+.male {
+  border: 1px solid black;
+  width: 143px;
+  display: flex;
+  align-items: baseline;
+  padding: 3px;
+  justify-items: baseline;
+  border-radius: 5px;
+  border: 1px solid rgba(148, 143, 143, 0.447);
+  /* width: 140px; */
+}
+
+.male,
+input,
+label {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.male input {
+  justify-items: baseline;
+  align-items: baseline;
+}
+
+.dof input {
+  margin-top: 0;
+  border: 1px solid rgba(148, 143, 143, 0.447);
+}
+
+.dof label {
+  padding-top: 0;
+}
+
+input:hover {
+  border: 1px solid rgba(106, 106, 248, 0.795);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(194, 230, 255);
+  }
+
+  #Main-Box {
+    width: 500px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    /* 
+    text-align: left; */
+    text-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    text-indent: 20px;
+  }
+
+  .p {
+    margin-left: 30px;
+    text-wrap: wrap;
+    /* text-align: center; */
+    width: 480px;
+    text-indent: 20px;
+  }
+
+  .passw {
+    min-width: fit-content;
+    max-width: 1000vw;
+  }
+}
